@@ -10,8 +10,7 @@ terraform {
 }
 
 provider "aws" {
-  profile = "user-terraform"
-  region  = "us-east-1"
+  region = "us-east-1"
 }
 
 resource "aws_security_group" "ssh-access" {
