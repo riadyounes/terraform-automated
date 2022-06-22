@@ -10,8 +10,9 @@ terraform {
 }
 
 provider "aws" {
-  profile = "user-terraform"
-  region  = "us-east-2"
+  access_key = "AKIAY3NDLSC64HT4QNVM"
+  secret_key = "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"
+  region     = "us-east-2"
 }
 
 resource "aws_security_group" "ssh-access" {
